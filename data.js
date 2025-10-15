@@ -8,5 +8,10 @@ const stdAry = [
 function sum(a, b) {
   return a + b;
 }
+const PI = 3.14;
+
+function getStdInfo() {
+  return ["고길동", "홍길동", "신길동", "김길동"];
+}
 
 export { stdAry, sum };
